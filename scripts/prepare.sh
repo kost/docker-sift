@@ -7,5 +7,5 @@ echo "force-unsafe-io" > /etc/dpkg/dpkg.cfg.d/02apt-speedup
 # we don't need and apt cache in a container
 echo "Acquire::http {No-Cache=True;};" > /etc/apt/apt.conf.d/no-cache
 # another idea
-echo 'Acquire::Languages "none;"' > /etc/apt/apt.conf.d/no-lang
+echo 'Acquire::Languages "none;";' > /etc/apt/apt.conf.d/no-lang
 
