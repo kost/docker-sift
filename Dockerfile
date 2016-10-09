@@ -1,4 +1,4 @@
-FROM ubuntu:14.04.2
+FROM ubuntu:14.04.5
 MAINTAINER kost - https://github.com/kost
 
 ENV SUDO_USER root
